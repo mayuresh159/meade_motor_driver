@@ -1,0 +1,10 @@
+embedded program files for the meade telescope motor driver
+
+test_current_sense - to check the working of current sense resistor and adc
+test_encoder - to check the working of the encoder and the related decoder
+test_motor_driver -  to check whether the mosfet driver is working properly without shorting the mosfet switches at any combination of inputs
+
+current_loop2 - current loop implementation for the motor driver (delay based)
+speed_loop2 - speed loop over current loop implementation for the motor driver (delay based)
+speed_loop3 - speed loop only implementation for motor driver (delay based)
+speed_loop4 - speed loop over current loop implementation for motor driver (timer based)
